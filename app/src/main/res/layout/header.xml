@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+
+
+        android:id="@+id/logo"
+        android:layout_width="48.28dp"
+        android:layout_height="42.68dp"
+        android:layout_marginTop="60dp"
+        android:background="#1E00BCD4"
+        android:src="@drawable/home_icon"
+        app:layout_constraintEnd_toStartOf="@+id/text"
+        app:layout_constraintHorizontal_bias="0.246"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/discover_th"
+        android:layout_width="197dp"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp"
+        android:background="#1E00BCD4"
+        android:gravity="top"
+        android:text="@string/discover_th"
+        android:textAppearance="@style/discover_th"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="@+id/text"
+        app:layout_constraintStart_toStartOf="@+id/text"
+        app:layout_constraintTop_toBottomOf="@+id/text" />
+
+    <SearchView
+        android:id="@+id/search_bar"
+        android:layout_width="310dp"
+        android:layout_height="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="#1E00BCD4"
+        app:layout_constraintEnd_toEndOf="@+id/discover_th"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="@+id/discover_th"
+        app:layout_constraintTop_toBottomOf="@+id/discover_th"
+        app:queryBackground="@drawable/search_view_border">
+
+    </SearchView>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="237dp"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="84dp"
+        android:background="#1E00BCD4"
+        android:gravity="center|top"
+        android:text="@string/vishakha_pr"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

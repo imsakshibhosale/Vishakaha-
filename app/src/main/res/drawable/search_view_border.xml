@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+        <item>
+            <!-- Background color -->
+            <shape android:shape="rectangle">
+                <solid android:color="#FF0000" /> <!-- Set your desired background color -->
+            </shape>
+        </item>
+        <item android:right="1dp" android:left="1dp" android:top="1dp" android:bottom="1dp">
+            <!-- Border color -->
+            <shape android:shape="rectangle">
+                <solid android:color="#330000" /> <!-- Set your desired border color -->
+            </shape>
+        </item>
+    </layer-list>
+</selector>
